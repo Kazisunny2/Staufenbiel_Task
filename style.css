@@ -1,12 +1,16 @@
-box-icon-input {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-style: normal;
-    padding: 10px;
+
+  .white-text {
+    color: white;
   }
-  .box-icon-input::placeholder {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-style: normal;
-    padding-left: 30px; /* Adjust the padding as needed */
+
+  .bordered-area {
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 310px;
+    margin-right: 300px;
+  }
+  .tick-image {
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    margin-right: 5px; /* Add spacing between the image and the paragraph */
   }
