@@ -1,0 +1,12 @@
+box-icon-input {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-style: normal;
+    padding: 10px;
+  }
+  .box-icon-input::placeholder {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-style: normal;
+    padding-left: 30px; /* Adjust the padding as needed */
+  }
