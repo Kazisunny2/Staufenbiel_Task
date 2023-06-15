@@ -14,3 +14,8 @@
     height: 20px; /* Adjust the height as needed */
     margin-right: 5px; /* Add spacing between the image and the paragraph */
   }
+
+  .custom-container {
+    margin-top: 100px;
+    margin-left: 300px;
+  }
