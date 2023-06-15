@@ -85,13 +85,42 @@
   }
 
   .card-container {
-    margin: 270px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 270px;
+    margin-right: 270px;
     padding-top:10px ;
-    text-align: center;
   }
   .card-container1{
     padding-left: 60px;
     padding-right: 40px;
   }
+  .interview{
+    margin-left: 300px;
+  }
+  .card3{
+    margin-left: 300px;
+  }
+  .card4{
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+  .card5{
+    margin-right: 300px;
+
+  }
+
+  /*Footer*/
+  .card6 {
+    background-color: #000;
+    color: #fff;
+  }
   
+  .card-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
   
