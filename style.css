@@ -62,7 +62,7 @@
     margin-left: 50px;
     margin-right: 40px;
     border: none;
-    border-top: 1px solid #000000; /* Customize the color and style of the divider */
+    border-top: 1px solid #000000; 
   }
 
   .card-img-top1{
@@ -86,10 +86,12 @@
 
   .card-container {
     margin: 270px;
+    padding-top:10px ;
     text-align: center;
   }
   .card-container1{
     padding-left: 60px;
     padding-right: 40px;
   }
+  
   
