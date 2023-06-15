@@ -86,9 +86,9 @@
                 aria-label="Search"
               />
 
-              <li class="dropdown me-3">
+              <div class="dropdown me-3">
                 <a
-                  class="form-control btn btn-danger btn-lg dropdown-toggle bg-danger"
+                  class="dropdown me-3 form-control btn btn-danger btn-lg dropdown-toggle bg-danger"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -96,7 +96,7 @@
                 >
                   Alle Einstiegslevel
                 </a>
-                <ul class="text-bg-white dropdown-menu bg-danger">
+                <ul class="dropdown-menu bg-danger">
                   <li>
                     <a class="dropdown-item" href="#">Alle Einstiegslevel</a>
                   </li>
@@ -127,12 +127,12 @@
                     <a class="dropdown-item" href="#">Werkstudent</a>
                   </li>
                 </ul>
-              </li>
+              </div>
               <button class="btn btn-danger btn-lg bg-danger" type="submit">
                 1968Treffer
               </button>
             </form>
-            <h5 class="white-text">Login</h5>
+            <h5 class="white-text me-5">Login</h5>
           </div>
         </div>
       </nav>
@@ -283,7 +283,12 @@
             <p>
               Alles ist garantiert kostenfrei und ohne Verpflichtung für dich
             </p>
-            <button type="button" class="btn btn-danger btn/lg">Danger</button>
+            <div class="button-with-paragraph">
+              <button type="button" class="btn btn-danger long-button">
+                Jetzt gleich registrieren
+              </button>
+              <p class="ms-3 mt-4">Bereits angemeldet?</p>
+            </div>
           </div>
           <div class="col-md-6">
             <img

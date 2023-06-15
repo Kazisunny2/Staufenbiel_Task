@@ -19,3 +19,20 @@
     margin-top: 100px;
     margin-left: 300px;
   }
+  .dropdown-menu {
+    background-color: #f8f9fa;
+  }
+  .dropdown-menu {
+    background-color: #870c1f; 
+  }
+  .long-button {
+    width: 350px; 
+  }
+  .button-with-paragraph {
+    display: flex;
+    align-items: center;
+  }
+
+  .button-with-paragraph p {
+    margin-right: 40px; 
+  }
