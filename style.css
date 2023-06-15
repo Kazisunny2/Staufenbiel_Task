@@ -59,8 +59,37 @@
   hr.divider {
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 350px;
-    margin-right: 340px;
+    margin-left: 50px;
+    margin-right: 40px;
     border: none;
     border-top: 1px solid #000000; /* Customize the color and style of the divider */
   }
+
+  .card-img-top1{
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    width: 75px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .card1 {
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+  }
+
+  .card-container {
+    margin: 270px;
+    text-align: center;
+  }
+  .card-container1{
+    padding-left: 60px;
+    padding-right: 40px;
+  }
+  
