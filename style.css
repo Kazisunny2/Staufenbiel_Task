@@ -10,9 +10,9 @@
     margin-right: 300px;
   }
   .tick-image {
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Adjust the height as needed */
-    margin-right: 5px; /* Add spacing between the image and the paragraph */
+    width: 20px; 
+    height: 20px; 
+    margin-right: 5px; 
   }
 
   .custom-container {
@@ -35,4 +35,32 @@
 
   .button-with-paragraph p {
     margin-right: 40px; 
+  }
+
+  .card-img-top {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    width: 200px;
+    height: auto;
+  }
+  
+  .card-text {
+    padding: 1rem;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: none;
+  }
+  .card-deck {
+    justify-content: center;
+  }
+
+  hr.divider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+    margin-right: 340px;
+    border: none;
+    border-top: 1px solid #000000; /* Customize the color and style of the divider */
   }
