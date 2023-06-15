@@ -4,12 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Startseite</title>
-    <!-- Link to Font Awesome-->
+    <!-- Include Font Awesome CSS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-EXAMPLE-CSS-INTEGRITY-VALUE"
-      crossorigin="anonymous"
     />
     <!-- Link To Bootstrap -->
     <link
@@ -18,33 +16,21 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-
     <!-- Link To CSS-->
     <link rel="stylesheet" href="style.css" />
-
-    <!--Box Icons-->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha384-6P5d5SUEIo+2gD5QzO8caE5BYlu1F5+KpN7FPMF7xu4NUqgTH+8K0KC5YbB7PqJh"
-      crossorigin="anonymous"
-    />
   </head>
   <body>
-    <!--Navbar-->
+    <!--Header-->
     <header>
+      <!--Navbar-->
       <nav
-        class="navbar navbar-expand-lg bg-dark border-bottom"
+        class="position-fixed; navbar navbar-expand-lg bg-dark border-bottom"
         data-bs-theme="dark"
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
-              class="nav-link active"
+              class="ms-5 nav-link active"
               src="https://staufenbielinstitut.de/wp-content/uploads/2021/07/STB_Quedr_1500-redwhite.png"
               alt="Bootstrap"
               width="200px"
@@ -65,11 +51,7 @@
             <ul
               class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
               style="--bs-scroll-height: 100px"
-            >
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-            </ul>
+            ></ul>
             <form
               class="d-flex top-50 start-50 position-absolute translate-middle"
               role="search"
@@ -79,6 +61,7 @@
                 type="search"
                 placeholder="Welchen Job suchst du?"
               />
+
               <input
                 class="text-bg-light form-control me-3"
                 type="search"
@@ -88,15 +71,16 @@
 
               <div class="dropdown me-3">
                 <a
-                  class="dropdown me-3 form-control btn btn-danger btn-lg dropdown-toggle bg-danger"
+                  class="dropbtn text-light long-button me-3 form-control btn btn-danger btn-lg dropdown-toggle bg-danger"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  style="background-color: #600210"
                 >
                   Alle Einstiegslevel
                 </a>
-                <ul class="dropdown-menu bg-danger">
+                <ul class="dropdown-menu bg-danger text-light dropdown-content">
                   <li>
                     <a class="dropdown-item" href="#">Alle Einstiegslevel</a>
                   </li>
@@ -128,7 +112,10 @@
                   </li>
                 </ul>
               </div>
-              <button class="btn btn-danger btn-lg bg-danger" type="submit">
+              <button
+                class="btn btn-danger btn-lg bg-danger dropbtn text-white"
+                type="submit"
+              >
                 1968Treffer
               </button>
             </form>
@@ -138,7 +125,7 @@
       </nav>
     </header>
     <!-- career platform  -->
-    <section>
+    <section class="career">
       <div class="bordered-area border border-top-0">
         <h4 class="mt-4 ms-5">
           Die Karriere-Plattform für Studenten und Absolventen bis 3 Jahre
@@ -390,7 +377,7 @@
       <div class="container mt-5 card-container1">
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card1">
+            <div class="login-card">
               <img
                 src="https://www.staufenbiel.de/image/fileadmin/templates/bilder/startseite/stb2020lp/joern-te.png"
                 class="card-img-top1 rounded-circle"
@@ -414,7 +401,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card1">
+            <div class="login-card">
               <img
                 src="https://www.staufenbiel.de/image/fileadmin/templates/bilder/startseite/stb2020lp/sarrah-te.png"
                 class="card-img-top1 rounded-circle"
@@ -438,7 +425,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card1">
+            <div class="login-card">
               <img
                 src="https://www.staufenbiel.de/image/fileadmin/templates/bilder/startseite/stb2020lp/laura-te.png"
                 class="card-img-top1 rounded-circle"
@@ -458,7 +445,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card1">
+            <div class="login-card">
               <img
                 src="https://www.staufenbiel.de/image/fileadmin/templates/bilder/startseite/stb2020lp/marcus-te.png"
                 class="card-img-top1 rounded-circle"
@@ -487,7 +474,7 @@
     <section>
       <h3 class="interview">Alle Infos für deinen perfekten Karrierestart</h3>
       <br />
-      <div class="card3" style="width: 18rem">
+      <div class="interview-card" style="width: 18rem">
         <img
           src="https://www.staufenbiel.de/image/uploads/tx_templavoilaplus/iona_didishvili_shutterstock_2225762013_w300_h150_mfit.jpg"
           class="card-img-top"
@@ -505,11 +492,11 @@
     <!-- About Company-->
 
     <section>
-      <div class="card4">
+      <div class="company-card">
         <div class="card-body">
           <h3 class="card-title">Für Unternehmen</h3>
           <br />
-          <p class="card5">
+          <p class="company-card-paragraph">
             Jedes Jahr informieren sich tausende Studenten, Absolventen und
             Young Professionals bis 3 Jahre Berufs-Erfahrung bei uns über
             spannende Arbeitgeber. Nutzen Sie unsere Plattform für Ihr Employer
@@ -521,19 +508,23 @@
     </section>
 
     <!--Footer-->
-    <footer class="color">
+    <footer class="footer-bg">
       <section>
         <div>
           <div class="card-container2">
-            <div class="card6">
-              <div class="ms-5">
-                <p class="card-title text-center">Schreib uns deine Meinung:</p>
-                <p class="card-text">
-                  <a href="#" class="btn btn-danger long-button1">Feedback</a>
-                </p>
+            <div class="first-footer-card">
+              <div class="footer-feedback">
+                <div class="ms-5">
+                  <p class="card-title text-center">
+                    Schreib uns deine Meinung:
+                  </p>
+                  <p class="card-text">
+                    <a href="#" class="btn btn-danger long-button1">Feedback</a>
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="card7">
+            <div class="second-footer-card">
               <div>
                 <p class="card-title text-center">Folge uns auf:</p>
               </div>
@@ -578,7 +569,7 @@
           Das JobBoard von Staufenbiel Institut für deinen Karrierestart:
           staufenbiel.de
         </h6>
-        <p class="card3 card5" style="color: #666">
+        <p class="interview-card company-card-paragraph" style="color: #666">
           Gesucht: Jobbörse mit attraktiven Stellenangeboten für junge
           Akademiker wie dich? Herzlich Willkommen, hier bist du genau richtig.
           Staufenbiel.de ist das führende Jobportal unter den Spezial-Jobbörsen
@@ -591,16 +582,30 @@
           Direkteinstieg: Was immer du willst!
         </p>
       </section>
-      <hr class="divider" style="border-color: #999" />
+      <hr class="m-4" style="border-color: #999" />
       <br />
       <h6 class="text-center text-light">Was dir die Jobbörse bietet?</h6>
 
-      <hr class="divider" style="border-color: #999" />
+      <hr class="m-5" style="border-color: #999" />
       <h6 class="text-center text-light">
         © 2020 Staufenbiel Institut
         GmbH·kontakt@staufenbiel.de·Karriere·Presse·Impressum·Datenschutzerklaerung·AGB
       </h6>
+      <br />
+      <h5 class="text-center text-light mb-5">
+        Made with <i class="fas fa-heart" style="color: red"></i>in Cologne
+      </h5>
+      <div class="footer" style="text-align: center">
+        <h4 class="text-light">
+          Für Studenten, Absolventen und Young Professionals (bis 3 Jahre
+          Berufserfahrung).
+          <button class="btn btn-danger" style="float: right">
+            Für Arbeitgeber
+          </button>
+        </h4>
+      </div>
     </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
