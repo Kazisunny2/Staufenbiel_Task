@@ -5,12 +5,11 @@
   left: 0;
   width: 100%;
   background-color: #000000;
-  /* Additional styling properties */
+
 }
 /* Style for the page content */
 main {
-  padding-top: 60px; /* Adjust this value to match the height of your navbar */
-  /* Additional styling properties */
+  padding-top: 60px; 
 }
 
 .footer{
@@ -219,6 +218,9 @@ main {
     padding: 5px;
     margin-left: 3px;
   }
+
+
+
 
 
 
